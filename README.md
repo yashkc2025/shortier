@@ -14,7 +14,7 @@ To use just provide the link to be shortened.
 shortier azure.microsoft.com
 ```
 
-You can also define whgich service to use by adding `--type` argument.
+You can also define which service to use by adding `--type` argument.
 For example to use clckru use
 
 ```shell

@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: shortier
-Version: 1.1.0
+Version: 1.1.2
 Summary: A Link shortener with support for various providers.
 Home-page: https://github.com/yashkc2025/shortier
 Author: Yash Kumar
@@ -29,7 +29,7 @@ To use just provide the link to be shortened.
 shortier azure.microsoft.com
 ```
 
-You can also define whgich service to use by adding `--type` argument.
+You can also define which service to use by adding `--type` argument.
 For example to use clckru use
 
 ```shell

@@ -14,7 +14,7 @@ def main():
         "--type", type=str,
         help=("Service used to shorten the URL "
                 "if not set, will use tinyurl. "
-                "Options include : chilpit, clckru, dagd, isgd, osdb, tinyurl")
+                "Options include : chilpit, clckru, dagd,isgd,osdb,tinyurl")
     )
 
     args = parser.parse_args()

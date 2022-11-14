@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fhand:
 
 setuptools.setup(
     name="shortier",
-    version="1.1.0",
+    version="1.1.2",
     author="Yash Kumar",
     author_email="yashkc2025@gmail.com",
     description="A Link shortener with support for various providers.",
