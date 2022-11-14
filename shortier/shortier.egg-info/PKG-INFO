@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: shortier
+Version: 1.0.0
+Summary: A Link shortener with support for various providers.
+Home-page: https://github.com/yashkc2025/shortier
+Author: Yash Kumar
+Author-email: yashkc2025@gmail.com
+Project-URL: Bug Tracker, https://github.com/yashkc2025/shortier/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Shortier
+
+A Link shortener with support for various providers.
