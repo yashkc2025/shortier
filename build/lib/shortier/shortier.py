@@ -1,8 +1,9 @@
 import pyshorteners
 
-def shortier(linkURL, servProvider = None):
+def shortier(linkURL, servProvider=None):
 
     # match int(input("-- Enter your choice in digits --")):
+    # return pyshorteners.Shortener().tinyurl.short(linkURL)
     match servProvider:
 
         case "chilpit":
@@ -17,5 +18,5 @@ def shortier(linkURL, servProvider = None):
             return pyshorteners.Shortener().osdb.short(linkURL)
         case "tinyurl":
             return pyshorteners.Shortener().tinyurl.short(linkURL)
-        case _:
-            return pyshorteners.Shortener().tinyurl.short(linkURL)
+
+    return pyshorteners.Shortener().tinyurl.short(linkURL)
